@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pete",
-  "version": "0.0.19",
+  "version": "0.0.2",
   "description": "ESLint and Prettier Config from Pete",
   "keywords": [
     "javascript",
@@ -11,7 +11,7 @@
     "prettier"
   ],
   "main": "index.js",
-  "repository": "git@github.com:wesbos/eslint-config-wesbos.git",
+  "repository": "git@github.com:PeteyRev/eslint-prettier-config.git",
   "author": "Pete Arevalo",
   "license": "MIT",
   "peerDependencies": {
@@ -22,6 +22,7 @@
     "eslint-plugin-html": "^5.0.3",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "prettier": "^1.16.4"
   },
   "devDependencies": {
@@ -32,6 +33,7 @@
     "eslint-plugin-html": "^5.0.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "prettier": "^1.16.4"
   },
   "scripts": {
