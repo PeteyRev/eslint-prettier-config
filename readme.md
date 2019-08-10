@@ -15,7 +15,7 @@ npx install-peerdeps --dev eslint-config-pete
 
 4. Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your `.eslintrc` file should look like this:
 
-```json
+```
 {
   "extends": [
     "pete"
