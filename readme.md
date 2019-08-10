@@ -1,6 +1,5 @@
-# Eslint and Prettier Setup copy
-These are my settings for ESLint and Prettier
-Credit Wes Bos https://github.com/wesbos/eslint-config-wesbos
+# Eslint and Prettier Setup with VSCode
+A portable eslint/prettier config setup with vscode. 
 
 ## Local / Per Project Install
 
@@ -10,6 +9,7 @@ Credit Wes Bos https://github.com/wesbos/eslint-config-wesbos
 
 ```
 npx install-peerdeps --dev eslint-config-pete
+```
 
 3. You can see in your package.json there are now a big list of devDependencies.
 
@@ -22,3 +22,32 @@ npx install-peerdeps --dev eslint-config-pete
   ]
 }
 ```
+5. Update VSCode settings:
+```
+	"editor.formatOnSave": true,
+	// turn it off for JS and JSX, we will do this via eslint
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	// tell the ESLint plugin to run on save
+	"eslint.autoFixOnSave": true,
+	// vetur config
+	"vetur.format.defaultFormatterOptions": {
+		"js-beautify-html": {
+			"wrap_attributes": "force-expand-multiline",
+		},
+		"prettyhtml": {
+			"printWidth": 100,
+			"singleQuote": false,
+			"wrapAttributes": false,
+			"sortAttributes": false
+		},
+		"prettier": {
+			"singleQuote": true,
+			"trailingComma": "none"
+		}
+	}
+  ```
+  ## Acknowledgement
+
+  Credit Wes Bos https://github.com/wesbos/eslint-config-wesbos

@@ -1,7 +1,9 @@
 module.exports = {
   "extends": [
     "airbnb",
-    "prettier"
+    "prettier",
+    "plugin:vue/essential",
+    "@vue/airbnb",
   ],
   "parser": "babel-eslint",
   "parserOptions": {
