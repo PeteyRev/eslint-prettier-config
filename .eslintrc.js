@@ -2,11 +2,12 @@ module.exports = {
   "extends": [
     "airbnb",
     "prettier",
+    "plugin:vue/recommended",
     "plugin:vue/essential",
     "@vue/airbnb",
   ],
-  "parser": "babel-eslint",
   "parserOptions": {
+    "parser": "babel-eslint",
     "ecmaVersion": 2018,
     // Can I remove these now?
     "ecmaFeatures": {
@@ -72,6 +73,7 @@ module.exports = {
     "no-underscore-dangle": 0,
     "consistent-return": 0,
     "radix": 0,
+    "semi": 0,
     "no-shadow": [
       2,
       {
@@ -100,6 +102,7 @@ module.exports = {
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 80,
+        "semi": false
       }
     ],
   },

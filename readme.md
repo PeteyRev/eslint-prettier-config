@@ -1,7 +1,7 @@
 # Eslint and Prettier Setup with VSCode
 A portable eslint/prettier config setup with vscode. 
 
-## Local / Per Project Install
+## Installation
 
 1. If you don't already have a `package.json` file, create one with `npm init`.
 
