@@ -23,6 +23,8 @@ module.exports = {
   "rules": {
     "no-debugger": 0,
     "no-await-in-loop": 0,
+    "arrow-parens":0,
+    "trailingComma": 0,
     "no-return-assign": [
       "error",
       "except-parens"
